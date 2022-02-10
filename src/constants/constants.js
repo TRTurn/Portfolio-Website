@@ -43,9 +43,9 @@ export const unhostedProjects = [
 
 export const TimeLineData = [
   { year: 2017, month: "Jun", text: 'Graduated from University California, San Diego with a B.S. in Biochemistry', },
-  { year: 2017, month: "Jul", text: 'Moved to from San Diego to Seattle', },
-  { year: 2017, month: "Nov", text: 'Started working at a local biotech working on immunodiagnostic research', },
-  { year: 2019, month: "Jan", text: 'Enrolled in Oregon State University', },
+  { year: 2017, month: "Jul", text: 'Moved from San Diego to Seattle', },
+  { year: 2017, month: "Nov", text: 'Started working for a local biotech focused on immunodiagnostic research', },
+  { year: 2019, month: "Jan", text: 'Enrolled in Oregon State University Computer Science Post Bacc', },
   { year: 2021, month: "Dec", text: 'Graduated from Oregon State University with a BS in Computer Science', },
 ];
 
