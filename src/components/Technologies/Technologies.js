@@ -6,7 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 // Additional Icons at React-icons
 const Technologies = () =>  (
-  <Section id="tech">
+  <Section id="technologies">
     <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
