@@ -50,8 +50,8 @@ export const TimeLineData = [
 ];
 
 export const hobbies = [
-  { number: 20, text: 'Rock/Ice Climbing'},
-  { number: 1000, text: 'Guitar', },
-  { number: 1900, text: 'Math', },
-  { number: 5000, text: 'Skiing', }
+  { name: 'Mountaineering ', description: 'Baker | Rainier | Washington '},
+  { name: 'Guitar', description: 'Electric | Acoustic', },
+  { name: 'Archery', description: 'Compound | Target', },
+  { name: 'Skiing', description: 'Freeride | AT', }
 ];
