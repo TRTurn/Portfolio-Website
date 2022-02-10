@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiMongodb, DiReact, DiTerminal } from 'react-icons/di';
+import { DiDocker, DiMongodb, DiReact } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -20,8 +20,7 @@ const Technologies = () =>  (
             Front-End
           </ListTitle>
           <ListParagraph>
-            Experience with <br/>
-            React.js
+            React.js | PyQT5 | Tkinter
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,20 +31,19 @@ const Technologies = () =>  (
             Back-End
           </ListTitle>
           <ListParagraph>
-            Experience with <br/>
-            Node.js and Databases
+            Node.js | Flask,<br/>
+            MongoDB | PostgreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiTerminal size="3rem"/>
+        <DiDocker size="3rem"/>
         <ListContainer>
           <ListTitle>
-            CI/CD
+            Modern Technologies
           </ListTitle>
           <ListParagraph>
-            Experience with <br/>
-            Kubernetes
+            Docker | PyTorch | TensorFlow
           </ListParagraph>
         </ListContainer>
       </ListItem>
