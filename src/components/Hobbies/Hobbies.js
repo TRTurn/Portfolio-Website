@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Section, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText } from './HobbiesStyles';
 import { hobbies } from '../../constants/constants';
 
 const Hobbies = () => (

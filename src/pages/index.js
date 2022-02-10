@@ -1,4 +1,4 @@
-import Hobbies from '../components/Acomplishments/Acomplishments';
+import Hobbies from '../components/Hobbies/Hobbies';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
