@@ -1,20 +1,14 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
-const data = [
-  { number: 20, text: 'Rock/Ice Climbing'},
-  { number: 1000, text: 'Guitar', },
-  { number: 1900, text: 'Math', },
-  { number: 5000, text: 'Skiing', }
-];
+import { hobbies } from '../../constants/constants';
 
 const Acomplishments = () => (
   <Section>
     <SectionTitle>Hobbies</SectionTitle>
     <Boxes>
-      {data.map((card, index) => (
+      {hobbies.map((card, index) => (
         <Box key={index}>
           <BoxNum>
             {card.number}+

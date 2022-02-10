@@ -23,7 +23,6 @@ export const projects = [
       image: '/images/3.jpg',
       tags: ['React', 'WebRTC'],
     source: 'https://google.com',
-    visit: 'https://google.com',
     id: 2,
   },
   {
@@ -43,4 +42,11 @@ export const TimeLineData = [
   { year: 2017, month: "Nov", text: 'Started working at a local biotech working on immunodiagnostic research', },
   { year: 2019, month: "Jan", text: 'Enrolled in Oregon State University', },
   { year: 2021, month: "Dec", text: 'Graduated from Oregon State University with a BS in Computer Science', },
+];
+
+export const hobbies = [
+  { number: 20, text: 'Rock/Ice Climbing'},
+  { number: 1000, text: 'Guitar', },
+  { number: 1900, text: 'Math', },
+  { number: 5000, text: 'Skiing', }
 ];
