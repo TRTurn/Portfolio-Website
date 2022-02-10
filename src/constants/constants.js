@@ -18,7 +18,7 @@ export const hostedProjects = [
     id: 1,
   },
 
-  // Project Template
+  // Hosted Project Template
   // {
   //   title: '',
   //   description: "",
@@ -26,7 +26,7 @@ export const hostedProjects = [
   //   tags: [''],
   //   source: '',
   //   visit: '',
-  //   id: ,
+  //   id: 
   // },
 ];
 
@@ -39,6 +39,23 @@ export const unhostedProjects = [
     source: 'https://github.com/TRTurn/flappy-bird-NEAT-AI',
     id: 0
   },
+  {
+    title: 'Small Shell: Clang',
+    description: "A simple shell created for my Operating Systems course at Oregon State. Low level != Slow level",
+    image: '/images/c-shell.png',
+    tags: ['CLang', 'Shell Scripting'],
+    source: 'https://github.com/TRTurn/smallsh-cs-344',
+    id: 1,
+  },
+    // Unhosted Project Template
+  // {
+  //   title: '',
+  //   description: "",
+  //   image: '',
+  //   tags: [''],
+  //   source: '',
+  //   id: 
+  // },
 ]
 
 export const TimeLineData = [
