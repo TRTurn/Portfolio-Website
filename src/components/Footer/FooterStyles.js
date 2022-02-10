@@ -2,10 +2,10 @@ import styled from "styled-components"
 
 export const FooterWrapper = styled.section`
 	width: calc(100vw - 96px);
-  max-width: 1040px;
-  padding: 2rem 48px 40px;
-  margin: 1rem auto;
-  box-sizing: content-box;
+  	max-width: 1040px;
+  	padding: 2rem 48px 40px;
+  	margin: 1rem auto;
+  	box-sizing: content-box;
 
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -112,7 +112,6 @@ export const SocialContainer = styled.div`
 	}
 `
 
-
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
@@ -156,4 +155,10 @@ export const LinkTitle = styled.h4`
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
+`
+export const Hr = styled.hr`
+	height: 1px;
+	border-width:0;
+	color: gray;
+	background-color: rgba(255, 255, 255, 0.4);
 `
