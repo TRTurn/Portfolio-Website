@@ -11,7 +11,7 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with front-end and back-end technologies in Python and JS 
+      I've worked with front-end and back-end <br/>technologies in both Python and JavaScript 
     </SectionText>
     <List>
       <ListItem>

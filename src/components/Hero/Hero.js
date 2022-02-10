@@ -12,7 +12,7 @@ const Hero = (props) => (
 				My Portfolio
 			</SectionTitle>
 			<SectionText>My goal is to create novel web products using the latest technologies available.</SectionText>
-			<Button onClick={() => window.open("https://github.com/TRTurn","_blank")}>Sample Code</Button>
+			<Button onClick={() => window.open("https://github.com/TRTurn","_blank")}>See My Code</Button>
 		</LeftSection>
 	</Section>
 );
