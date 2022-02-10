@@ -9,31 +9,34 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
+    title: 'E-Commerce w/ Microservices (Coming Soon)',
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed varius velit. Aenean consectetur nisl ac est sagittis, et scelerisque erat elementum. Nam ac dolor id lorem mattis posuere nec eget lectus. Cras luctus euismod mauris non laoreet. Phasellus rutrum mattis lacus, vel aliquam sem aliquam id.",
+    image: '/images/e-commerce.png',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/CSToddDEV/CS467-Short-Term-Algorithmic-Strategies',
     visit: 'https://www.cstodd.dev/3stat',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
+    title: 'Flappy Bird',
+    description: "Utilizes the NeuroEvolution of Augmenting Topologies (NEAT) evolutionary algorithm to effectively solve the game Flappy Bird. The game was created using PyGame and the AI is run using the NEAT-python-library",
+    image: '/images/flappy-bird.png',
+    tags: ['Python', 'NEAT Algorithm', 'Deep Learning', 'PyGame'],
+    source: 'https://github.com/TRTurn/flappy-bird-NEAT-AI',
+    visit: null,
     id: 2,
   },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+
+  // Project Template
+  // {
+  //   title: '',
+  //   description: "",
+  //   image: '',
+  //   tags: [''],
+  //   source: '',
+  //   visit: '',
+  //   id: 3,
+  // },
 ];
 
 export const TimeLineData = [
