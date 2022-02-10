@@ -6,8 +6,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 // Additional Icons at React-icons
 const Technologies = () =>  (
+
   <Section id="technologies">
-    <SectionDivider />
+    <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with front-end and back-end technologies in Python and JS 
@@ -48,6 +49,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
+          <SectionDivider/>
   </Section>
 );
 

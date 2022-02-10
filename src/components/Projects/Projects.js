@@ -33,6 +33,7 @@ const Projects = () => (
 					<CardInfo>{description}</CardInfo>
 					<div>
 						<TagList>
+							<Tag>Using:</Tag>
 							{tags.map((tag, i) => (
 								<Tag key={i}>{tag}</Tag>
 							))}
@@ -45,6 +46,8 @@ const Projects = () => (
 				</BlogCard>
 			))}
 		</GridContainer>
+		<br/>
+		<SectionDivider/>	
 	</Section>
 );
 
