@@ -3,7 +3,6 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, Hr } from './FooterStyles';
-import { SectionDivider } from '../../styles/GlobalComponents';
 
 const Footer = () => {
   return (
@@ -18,7 +17,7 @@ const Footer = () => {
           <LinkItem href="mailto:turnbaugh.tim.applications@gmail.com" target="_blank" rel="noreferrer noopener">Contact-Me</LinkItem>
         </LinkColumn>
       </LinkList>
-       <Hr/>
+      <Hr/>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>You don't drive with your eyes, you drive with your heart - Ricky Bobby, Philosopher</Slogan>

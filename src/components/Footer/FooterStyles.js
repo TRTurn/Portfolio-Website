@@ -103,7 +103,7 @@ export const Slogan = styled.p`
 
 export const SocialContainer = styled.div`
 	display: flex;
-  align-items: center;
+  	align-items: center;
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
@@ -114,10 +114,10 @@ export const SocialContainer = styled.div`
 
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
-  display: grid;
+  	display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
 	gap: 40px;
-  padding: 40px 0 28px;
+  	padding: 40px 0 28px;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;
@@ -158,7 +158,7 @@ export const LinkTitle = styled.h4`
 `
 export const Hr = styled.hr`
 	height: 1px;
-	border-width:0;
-	color: gray;
-	background-color: rgba(255, 255, 255, 0.4);
+	border-width: 0;
+	color: rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.1);
 `

@@ -60,7 +60,7 @@ export const CarouselItem = styled.div`
     position: relative;
     height: fit-content;
     
-    ${(props) => props.active === props.index ? `opacity: 1` : `opacity: 0.5`}; 
+    ${(props) => props.active === props.index ? `opacity: 1` : `opacity: 0.35`}; 
   }
 `
 
